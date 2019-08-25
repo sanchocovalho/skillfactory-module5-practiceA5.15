@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Практика А5.15</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Сказка про курочку Рябу</h1>
+		<form class="form" method="GET">
+			<div class="flexrow">
+				<label class="label">var1:</label>
+				<input type="text" name="var1" placeholder="Дед" value="Дед">
+			</div>
+			<div class="flexrow">
+				<label class="label">var2:</label>
+				<input type="text" name="var2" placeholder="Баба" value="Баба">
+			</div>
+			<div class="flexrow">
+				<label class="label">var3:</label>
+				<input type="text" name="var3" placeholder="курочка Ряба" value="курочка Ряба">
+			</div>
+			<div class="flexrow">
+				<label class="label">var4:</label>
+				<input type="text" name="var4" placeholder="яичко" value="яичко">
+			</div>
+			<div class="flexrow">
+				<label class="label">var4:</label>
+				<input type="text" name="var5" placeholder="Мышка" value="Мышка">
+			</div>
+			<div class="flexrow">
+				<label class="label">var5:</label>
+				<input type="text" name="var6" placeholder="хвостиком" value="хвостиком">
+			</div>
+			<div class="flexrow">
+				<label class="label">speach:</label>
+				<input type="text" name="speach" placeholder="Не плачь, дед, не плачь, баба: снесу вам новое яичко не золотое, а простое!" value="Не плачь, дед, не плачь, баба: снесу вам новое яичко не золотое, а простое!">
+			</div>
+			<button type="button" id="button-fetch" class="btn btn-primary">Создать</button>
+		</form>
+		<div id="result"></div>
+		<div class="btnbox">
+			<button type="button" id="button-reset" class="btn-reset">Сброс</button>
+		</div>
+	</div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

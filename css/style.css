@@ -1,0 +1,63 @@
+.form {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.container {
+	padding: 40px 0;
+	margin-top: 40px;
+	background: #eee;
+	width: 60%;
+	border-radius: 15px;
+	box-shadow: 0 0 30px 1px rgba(0,0,0,0.2);
+}
+
+.flexrow {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	width: 90%;
+}
+
+.label {
+	width: 9%;
+}
+
+input {
+	width: 92%;
+	margin: 5px 0;
+}
+
+button {
+	height: 30px;
+	margin: 5px 0;
+	padding: 0.75rem;
+}
+
+#result {
+	width: 90%;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.btn,
+.btn-reset {
+	padding: 0 5px;
+}
+
+.btnbox {
+	display: none;
+	text-align: center;
+	padding-top: 25px;
+}
